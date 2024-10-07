@@ -65,7 +65,8 @@ li {
 }
 
 .about {
-    display: flex;
+    display: grid;
+    grid-auto-flow: column dense;
     width: 40%;
     margin-top: 90px;
     margin-left: 330px;
@@ -77,10 +78,12 @@ li {
 }
 
 .about-p {
+    
     color: #FFD700;
 }
 
 .about-img {
-    width: 150px;
-    height: 150px;
+    
+    width: 100%;
+    
 }
