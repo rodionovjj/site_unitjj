@@ -1,0 +1,82 @@
+body {
+    background-color:#222222;
+    
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 90px;
+    font-family: roboto;
+    background-color: #222222;
+}
+.nav{
+    display: flex;
+    margin-top: 60px;
+    order: 2;
+    
+}
+ul {
+    display: flex;
+
+}
+
+li {
+    list-style-type: none;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+.logo {
+    display: flex;
+    order: 1;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+img {
+    width: 950px;
+    height: auto;
+}
+
+.welcome-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 330px;
+    margin-right: 90px;
+    margin-top: 90px;
+    background-color: white;
+    
+    
+}
+
+.welcome-section-h1 {
+    display: flex;
+    color: #FFD700;
+    margin-left: 75px;
+    width: 739px;
+    height: 84px;
+    size
+}
+
+.welcome-section-p {
+    display: flex;
+    margin-left: 50%;
+    size: 18px;
+}
+
+.about {
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 330px;
+    margin-right: 90px;
+}
+.about-h2 {
+    color: #FFD700;
+}
+
+.about-p {
+    color: #FFD700;
+}
