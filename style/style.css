@@ -36,10 +36,7 @@ li {
     width: 150px;
     height: 150px;
 }
-img {
-    width: 950px;
-    height: auto;
-}
+
 
 .welcome-section {
     display: flex;
@@ -58,7 +55,7 @@ img {
     margin-left: 75px;
     width: 739px;
     height: 84px;
-    size
+    
 }
 
 .welcome-section-p {
@@ -68,15 +65,22 @@ img {
 }
 
 .about {
+    display: flex;
     width: 40%;
     margin-top: 90px;
     margin-left: 330px;
     margin-right: 90px;
 }
+
 .about-h2 {
     color: #FFD700;
 }
 
 .about-p {
     color: #FFD700;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
 }
